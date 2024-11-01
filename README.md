@@ -20,10 +20,10 @@
 
 ### 분석 방법
 - VADER를 사용하여 각 게시물의 긍정, 중립, 부정, 종합감정을 점수화했습니다.
-- VADER Compound Score는 다음과 같은 기준으로 해석됩니다:
+- VADER 종합점수(compound score)는 다음과 같은 기준으로 해석됩니다:
   - +0.05 이상: 긍정적인 감정
   - -0.05 이하: 부정적인 감정
-  - -0.05에서 +0.05 사이: 중립적인 감정
+  - -0.05 에서 +0.05 사이: 중립적인 감정
 - 성별에 따른 감정 차이를 T-test로 분석
 - 플랫폼에 따른 감정 표현 차이를 T-test로 분석
 
@@ -45,9 +45,14 @@
 
 [중립적 감정의 우세]
 
-- 극한 환경에서의 감정표현은 중립 감정이 주를 이루었고, 남성은 여성보다 더 중립적인 감정을 표현하는 경향이 있었습니다.
-![Distribution of Postiie, neutral, and negative sentiment scores](https://github.com/user-attachments/assets/0e20fc87-23a6-476e-93de-c14eecc6eab3)
 ![Distribution of compound sentiment scores](https://github.com/user-attachments/assets/4e6a3bbf-25c5-4eca-807e-9f52dddf4943)
+- 중립 감정의 우세: 그래프에서 compound score가 0 근처에 빈도가 높게 집중되어 있음을 볼 수 있습니다. 이는 대체로 중립적인 감정 표현이 많이 나타난다는 것을 시사합니다.
+- 긍정으로 약간 치우친 분포: 평균과 중앙값이 약 0.23으로, 약간 긍정적인 방향으로 치우쳐 있습니다. 이는 전체적으로 중립에 가깝지만 다소 긍정적인 감정 표현이 더 많다는 의미로 해석될 수 있습니다.
+
+![Distribution of Postiie, neutral, and negative sentiment scores](https://github.com/user-attachments/assets/0e20fc87-23a6-476e-93de-c14eecc6eab3)
+- 중립 감정의 우세: 중립 감정 점수(회색)가 가장 높은 빈도로 나타나며 특히 1.0에 해당하는 높은 빈도가 눈에 띕니다. 이는 중립적인 감정 표현이 매우 많이 사용되었음을 시사합니다.
+- 부정 감정의 초기 빈도 높음:부정 감정 점수(빨간색)가 0 근처에서 상대적으로 높은 빈도로 나타납니다. 이는 부정적인 감정 표현이 많지만, 그 강도가 낮다는 것을 의미할 수 있습니다.
+- 긍정 감정의 낮은 빈도: 긍정 감정 점수(초록색)는 부정 및 중립 감정에 비해 전반적으로 빈도가 낮습니다. 이는 긍정적인 감정 표현이 상대적으로 덜 사용되었음을 의미합니다.
 
 
 ### 결론
