@@ -25,13 +25,22 @@
 - 
 
 ### 주요 결과
-- 성별에 따른 감정표현 차이
+[성별에 따른 감정표현 차이]
+
 ![T_test_results_gender](https://github.com/user-attachments/assets/e90e7258-e6dc-45c7-ac39-3aa866a60a92)
+- 긍정 감정: 여성의 긍정 점수 평균이 남성보다 높으며(p < 0.0001), 여성은 더 긍정적인 표현을 많이 사용함을 시사합니다.
+- 중립 감정: 남성의 중립 점수 평균이 여성보다 유의미하게 높아(p < 0.0001), 남성이 여성보다 중립적 감정을 더 자주 표현하는 경향을 나타냅니다.
+- 부정 감정: 여성의 부정 점수 평균이 남성보다 높으며(p < 0.0001), 여성은 부정적 감정을 더 많이 표현하는 경향이 있습니다.
 
-- 플랫폼에 따른 감정표현 차이
+[플랫폼에 따른 감정표현 차이]
+
 ![t_test_results_platform](https://github.com/user-attachments/assets/557e574e-213d-440e-a20e-68cb9e0a1b6a)
+- 긍정 감정 : Twitter의 긍정 점수 평균(0.1818)이 Mastodon(0.1594)보다 유의미하게 높습니다(p = 0.0015). 이는 Twitter에서 긍정적 감정 표현이 더 많이 나타나는 경향을 시사합니다.
+- 중립 감정 : 중립 감정 점수의 평균에는 유의미한 차이가 없으며(p = 0.7955), Twitter와 Mastodon 모두 중립적 감정이 비슷한 빈도로 나타납니다.
+- 부정 감정 : Mastodon의 부정 점수 평균(0.0505)이 Twitter(0.0228)보다 유의미하게 높습니다(p < 0.0001). 이는 Mastodon에서 부정적 감정이 더 자주 표현되는 경향을 나타냅니다.
+- 종합 감정 : Twitter의 compound 점수 평균(0.3470)이 Mastodon(0.2251)보다 유의미하게 높습니다(p < 0.0001). 이는 Twitter에서 전반적으로 더 긍정적인 감정 표현이 많다는 것을 의미합니다.
 
-
+[중립적 감정의 우세]
 
 - 극한 환경에서의 감정표현은 중립 감정이 주를 이루었고, 남성은 여성보다 더 중립적인 감정을 표현하는 경향이 있었습니다.
 ![Distribution of Postiie, neutral, and negative sentiment scores](https://github.com/user-attachments/assets/0e20fc87-23a6-476e-93de-c14eecc6eab3)
