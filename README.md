@@ -25,7 +25,11 @@
 
 ### 주요 결과
 - 중립 감정이 주를 이루었고, 남성은 여성보다 더 중립적인 감정을 표현하는 경향이 있었습니다.
+![neutral_sentiment_fluctuations_by_gender](https://github.com/user-attachments/assets/73514e59-df1f-467f-a729-732be2f0cc4c)
+
 - Mastodon의 탈중앙화된 구조가 트위터보다 진솔한 감정 표현을 장려하는 경향을 보였습니다.
+![t_test_results_platform](https://github.com/user-attachments/assets/557e574e-213d-440e-a20e-68cb9e0a1b6a)
+
 
 ### 결론
 본 연구는 극한 환경에서의 감정 표현에 있어 성별에 따른 지원 시스템을 구축하고, 감정표현에 있어 유연한 미디어 플랫폼을 만드는 것을 장려합니다.
